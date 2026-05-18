@@ -34,7 +34,7 @@ public class UserTestMockito {
        when(userRepository.findById(1L))
                .thenReturn(Optional.of(user));
        User result=userService.getUser(1L);
-       assertEquals("Ask",result.getName());
+       assertEquals("Ak",result.getName());
 
    }
 
